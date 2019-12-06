@@ -4,9 +4,30 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("651762324927021090")
+let channel =     client.channels.get("651800911869509644")
 setInterval(function() {
-channel.send("helo iam here");
+channel.send(`1`);
+channel.send(`2`);
+channel.send(`3`);
+channel.send(`4`);
+channel.send(`5`);
+channel.send(`6`);
+channel.send(`7`);
+channel.send(`8`);
+channel.send(`9`);
+channel.send(`0`);
+channel.send(`#daily`);
+channel.send(`#credits`);
+channel.send(`#mute@ahmedbedo#9458   `);
+channel.send(`#unmute@ahmedbedo#9458  `);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
 }, 30)
 })
 
